@@ -3,7 +3,7 @@ class DateTools {
     static format(value) {
         var value = value;
 
-        // if(value.length == 2 || value.length == 5) value += "/";
+        if(value.length == 2 || value.length == 5) value += "/";
         document.querySelector("#data").value = value;
     }
 }
