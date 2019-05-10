@@ -8,8 +8,8 @@ class DateTools {
         if(value.length == 2 || value.length == 5) value += "/";
         document.querySelector("#date).value = value;
     }
-    
-    //it's equals the first function, but returns date in system format
+                               
+    //it's equals the first function, but returns date in system format                           
     static formatToSystem(value) {
         var value = value;
            2019-12-10
