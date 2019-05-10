@@ -1,5 +1,8 @@
-//OBS: add maxlength="10" and onkeyup="Date-tools.format(this.value)" atribute on html text input or use data-mask="__/__/____"
+
 class DateTools {
+    
+    //in this function you have to add maxlength="10" and onkeyup="Date-tools.format(this.value)" atribute on html text input,
+    //or use data-mask="__/__/____"
     static format(value) {
         var value = value;
 
